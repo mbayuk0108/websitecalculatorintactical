@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator In Tactical - Library2</title>
+    <link rel="stylesheet" href="library2.css">
+</head>
+<body>
+<div class="library-2">
+    <img class="img-library2" src="images/background website.jpg" />
+    <a href="library.html" class="back-btn">⟵</a>
+<div class="layer-bening"></div>
+<div class="bening-2"></div>
+    <img class="logo" src="images/logo.png" />
+<div class="library2-scroll-container">
+<div class="frame-gambar2">
+    <img class="img6" src="images/renang wanita.png" />
+    <img class="img5" src="images/shuttle run wanita.png" />
+    <img class="img4" src="images/sit up wanita.png" />
+    <img class="img3" src="images/push up wanita.png" />
+    <img class="img2" src="images/chinning up wanita.png" />
+    <img class="img1" src="images/lari wanita.png" />
+</div>
+<script>
+function scrollLibrary(direction) {
+    // direction: -1 (left), 1 (right)
+    const container = document.querySelector('.library2-scroll-container');
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
+</script>
+</body>

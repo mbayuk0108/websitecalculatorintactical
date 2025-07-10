@@ -1,0 +1,68 @@
+.layer-bening {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.60);
+}
+.bening-2 {
+  width: 1776px;
+  height: 79px;
+  left: 30px;
+  top: 969px;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.40) 0%, rgba(153, 153, 153, 0) 100%);
+}
+.logo {
+  width: 199.11px;
+  height: 77px;
+  left: 30px;
+  top: 971px;
+  position: absolute;
+}
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  position: static;
+}
+.frame-gambar2 {
+  width: 1662px;
+  height: 622px;
+  left: 118px;
+  top: 116px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 32px; /* Jarak antar gambar */
+}
+.library-2 {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.library2-scroll-container {
+width: 1660px;
+height: 760px;
+position: absolute;
+left: 118px;
+top: 50px;
+overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;
+scroll-behavior: smooth;
+border-radius: 10px;
+}
+.back-btn{
+position: absolute;
+top: 24px;
+left: 24px;
+z-index: 20;
+background: rgba(105,120,79,0.9);
+color: #fff;
+padding: 10px 22px;
+border-radius: 10px;
+text-decoration: none;
+}

@@ -1,0 +1,80 @@
+.layer-bening {
+    width: 100vw;
+    height: 100vh;
+    left: 0;    
+    top: 0;
+    position: fixed;
+    background: rgba(217, 217, 217, 0.40);
+    z-index: 0;
+    pointer-events: none;
+    }
+.container {
+    background: rgba(217, 217, 217, 0.80);
+    width: 500px;
+    height: 700px;
+    margin: 24px auto;
+    padding: 30px 32px 28px 32px ;
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(17, 115, 48, 0.1);
+    position: relative;
+    z-index: 1;
+    }
+.form-title {
+    text-align: center;
+    color: #000000;
+    font-size: 1.5em;
+    margin: 5px;
+    font-weight: bold;
+    }
+    label {
+    display: block;
+    margin-top: 5px;/* Adjusted margin */
+    font-weight: 600;
+    color: #000000;
+    font-size: 1.0em; /* Adjusted font size */
+    }
+    input[type="number"], select {
+    width: 100%;
+    padding: 10px; /* Adjusted padding */
+    margin-top: 6px; /* Adjusted margin */
+    border: 1.5px solid #bfc9d1;
+    border-radius: 8px;
+    font-size: 1.0em; /* Adjusted font size */
+    background: #f7fafd;
+    transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-sizing: border-box;
+    }
+    input[type="number"]:focus, select:focus {
+    border: 1.5px solid #000000;
+    box-shadow: 0 0 0 2px #eaf1fb;
+    }
+    button {
+    margin-top: 30px;
+    padding: 14px 0;
+    width: 100%;
+    background: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.15em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+    }
+    button:hover, button:focus {
+    background: #e0a800;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.13);
+    }
+.back-home-btn {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 20;
+    background: rgba(105,120,79,0.9);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    }
